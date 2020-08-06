@@ -1,0 +1,15 @@
+{
+  "name": "deidee/hetthema",
+  "description": "Een standaard WordPress-thema.",
+  "type": "project",
+  "authors": [
+    {
+      "name": "acj",
+      "email": "gitlab@acjs.net"
+    }
+  ],
+  "license": "proprietary",
+  "require": {
+    "php": "^7.3"
+  }
+}
