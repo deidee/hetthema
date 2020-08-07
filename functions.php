@@ -19,8 +19,11 @@ remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
 remove_action( 'admin_print_styles', 'print_emoji_styles' );
 
 // Apply stylesheet.
-wp_register_style( 'default-style', 'https://default.style/', '', '1.0.0' );
-wp_enqueue_style( 'default-style' );
+function deidee_scripts() {
+    wp_register_style( 'default-style', 'https://default.style/', '', '1.0.0' );
+    wp_enqueue_style( 'default-style' );
+}
+add_action( 'wp_enqueue_scripts', 'deidee_scripts' );
 
 if(!function_exists('jw')) {
     function jw() {
