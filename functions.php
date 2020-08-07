@@ -18,6 +18,10 @@ remove_action( 'wp_print_styles', 'print_emoji_styles' );
 remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
 remove_action( 'admin_print_styles', 'print_emoji_styles' );
 
+// Apply stylesheet.
+wp_register_style( 'default-style', 'https://default.style/', '', '1.0.0' );
+wp_enqueue_style( 'default-style' );
+
 if(!function_exists('jw')) {
     function jw() {
         ob_start();
