@@ -35,6 +35,14 @@ function deidee_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'deidee_scripts' );
 
+if(!function_exists('hetthema_lorem_picsum')) {
+	function hetthema_lorem_picsum($width = 512, $height = NULL) {
+		if(empty($height)) $height = $width;
+
+		return 'https://picsum.photos/' . $width . '/' . $height;
+	}
+}
+
 if(!function_exists('jw')) {
 	function jw() {
 		ob_start();

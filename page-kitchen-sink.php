@@ -17,7 +17,7 @@ get_header();
     </ul>
     <h2>Afbeelding</h2>
     <figure>
-        <img src="https://picsum.photos/400/300" alt="">
+        <img src="<?= hetthema_lorem_picsum(400, 300) ?>" alt="">
         <figure>Via <a href="https://picsum.photos/">Lorem Picsum</a>.</figure>
     </figure>
 <?php
