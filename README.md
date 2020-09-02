@@ -46,3 +46,9 @@ function remove_default_style() {
 }
 add_action( 'wp_enqueue_scripts', 'remove_default_style', 20 );
 ```
+
+## In gebruik
+
+Websites die hetThema in gebruik hebben:
+
+* [The Fashionweek](https://thefashionweek.nl/)
