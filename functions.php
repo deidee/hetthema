@@ -35,6 +35,15 @@ function deidee_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'deidee_scripts' );
 
+// Modern Web browsers only allow videos to autoplay when they are inline and muted.
+add_filter( 'wp_video_shortcode', function( $html ) {
+	if(strpos($html, ' autoplay') !== false) {
+		return str_replace( '<video', '<video muted playsinline', $html );
+	}
+
+	return $html;
+} );
+
 if(!function_exists('hetthema_lorem_picsum')) {
 	function hetthema_lorem_picsum($width = 512, $height = NULL) {
 		if(empty($height)) $height = $width;
