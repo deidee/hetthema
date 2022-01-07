@@ -1,12 +1,20 @@
 # ![hetThema](https://deidee.com/logo.png?str=hetThema)
 
-Een standaard [WordPress](https://wordpress.org/) -thema dat bedoeld is om uit te breiden via child-thema’s.
+Een standaard [WordPress](https://wordpress.org/) -thema dat bedoeld is om uit te breiden via een child-thema.
 
 ## Installatie
 
 1. Download [de ZIP](https://github.com/deidee/hetthema/archive/master.zip);
 2. pak het bestand uit in de map `hetthema` in `wp-content/themes`;
 3. activeer het thema in WordPress.
+
+### Via _Composer_
+
+Als je een _Composer_-opzet gebruikt (zoals [Bedrock](https://roots.io/bedrock/)), kun je het thema binnenhalen als pakketje:
+
+```shell
+composer require deidee/hetthema
+```
 
 ## Functies
 
