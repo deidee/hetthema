@@ -1,6 +1,7 @@
 {
   "name": "deidee/hetthema",
   "description": "Een standaard WordPress-thema.",
+  "version": "0.0.4",
   "type": "wordpress-theme",
   "authors": [
     {
