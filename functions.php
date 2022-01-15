@@ -64,7 +64,7 @@ function hetthema_ctp_artist() {
             'all_items' => __('All Artists', 'hetthema'),
             'archives' => __('Artist Archives', 'hetthema'),
             'attributes' => __('Artist Attributes', 'hetthema'),
-            'insert_into_item' => __('Insert into artist', 'hetthema'),
+            'insert_into_item' => __(/** @lang text */ 'Insert into artist', 'hetthema'),
             'uploaded_to_this_item' => __('Uploaded to this artist', 'hetthema'),
             //'featured_image' => 'Featured image',
             //'set_featured_image' => 'Set featured image',
