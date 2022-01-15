@@ -110,7 +110,7 @@ function hetthema_ctp_artist() {
         ],
         //'register_meta_box_cb'
         //'taxonomies' => ['country'], // TODO
-        //'has_archive' => true,
+        'has_archive' => true,
         //'rewrite' => [],
         //'query_var' => 'artist',
         //'can_export' => true,
@@ -188,7 +188,7 @@ function hetthema_ctp_artwork() {
         ],
         //'register_meta_box_cb'
         //'taxonomies' => ['series', 'artform'], // TODO
-        //'has_archive' => true,
+        'has_archive' => true,
         //'rewrite' => [],
         //'query_var' => 'artwork',
         //'can_export' => true,
@@ -266,7 +266,7 @@ function hetthema_ctp_exhibition() {
         ],
         //'register_meta_box_cb'
         //'taxonomies' => ['fair'], // TODO
-        //'has_archive' => true,
+        'has_archive' => true,
         //'rewrite' => [],
         //'query_var' => 'exhibition',
         //'can_export' => true,
