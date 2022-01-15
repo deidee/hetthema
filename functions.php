@@ -44,6 +44,83 @@ add_filter( 'wp_video_shortcode', function( $html ) {
 	return $html;
 } );
 
+add_action( 'init', 'hetthema_ctp_artist' );
+// See https://developer.wordpress.org/reference/functions/register_post_type/.
+register_post_type('artist', [
+    'labels' => [
+        'name' => __('Artists', 'hetthema'),
+        'singular_name' => __('Artist', 'hetthema'),
+        //'add_new' => '',
+        'add_new_item' => __('Add New Artist', 'hetthema'),
+        'edit_item' => __('Edit Artist', 'hetthema'),
+        'new_item ' => __('New Artist', 'hetthema'),
+        'view_item' => __('View Artist', 'hetthema'),
+        'view_items' => __('View Artists', 'hetthema'),
+        'search_items' => __('Search Artists', 'hetthema'),
+        'not_found' => __('No artists found', 'hetthema'),
+        'not_found_in_trash' => __('No artists found in Trash', 'hetthema'),
+        //'parent_item_colon' => 'Parent Artist',
+        'all_items' => __('All Artists', 'hetthema'),
+        'archives' => __('Artist Archives', 'hetthema'),
+        'attributes' => __('Artist Attributes', 'hetthema'),
+        'insert_into_item' => __('Insert into artist', 'hetthema'),
+        'uploaded_to_this_item' => __('Uploaded to this artist', 'hetthema'),
+        //'featured_image' => 'Featured image',
+        //'set_featured_image' => 'Set featured image',
+        //'remove_featured_image' => 'Remove featured image',
+        //'use_featured_image' => 'Use featured image',
+        //'menu_name' => 'Artists',
+        'filter_items_list' => __('Filter artists list', 'hetthema'),
+        //'filter_by_date' => 'Filter by date',
+        'items_list_navigation' => __('Artists list navigation', 'hetthema'),
+        'items_list' => __('Artists list', 'hetthema'),
+        'item_published' => __('Artist published', 'hetthema'),
+        'item_published_privately' => __('Artist published privately', 'hetthema'),
+        'item_reverted_to_draft' => __('Artist reverted to draft', 'hetthema'),
+        'item_scheduled' => __('Artist scheduled', 'hetthema'),
+        'item_updated' => __('Artist updated', 'hetthema'),
+        'item_link' => __('Artist Link', 'hetthema'),
+        'item_link_description' => __('A link to an artist', 'hetthema')
+    ],
+    //'labels' => [],
+    'description' => 'An artist.',
+    'public' => true,
+    //'hierarchical' => false,
+    //'exclude_from_search' => false,
+    //'publicly_queryable' => true,
+    //'show_ui' => true,
+    //'show_in_menu' => true,
+    //'show_in_nav_menus' => true,
+    //'show_in_admin_bar' => true,
+    //'show_in_rest' => true,
+    //'rest_base' => 'artist',
+    //'rest_controller_class' => 'WP_REST_Posts_Controller',
+    'menu_position' => 6,
+    // Artist by Gregor Cresnar from NounProject.com
+    'menu_icon' => 'dashicons-art',
+    // 'capability_type',
+    //'capabilities',
+    //'map_meta_cap',
+    'supports' => [
+        'title',
+        'editor',
+        'author',
+        'thumbnail',
+        'excerpt'
+    ],
+    //'register_meta_box_cb'
+    //'taxonomies' => ['country'], // TODO
+    //'has_archive' => true,
+    //'rewrite' => [],
+    //'query_var' => 'artist',
+    //'can_export' => true,
+    'delete_with_user' => false,
+    //'template' => [],
+    //'template_lock' => false,
+    //'_builtin' => false,
+    //'_edit_link' => 'post.php?post=%d'
+]);
+
 add_action( 'init', 'hetthema_ctp_artwork' );
 // See https://developer.wordpress.org/reference/functions/register_post_type/.
 register_post_type('artwork', [
@@ -95,7 +172,7 @@ register_post_type('artwork', [
     //'show_in_rest' => true,
     //'rest_base' => 'artist',
     //'rest_controller_class' => 'WP_REST_Posts_Controller',
-    'menu_position' => 6,
+    'menu_position' => 7,
     // Artist by Gregor Cresnar from NounProject.com
     'menu_icon' => 'dashicons-art',
     // 'capability_type',
@@ -112,7 +189,7 @@ register_post_type('artwork', [
     //'taxonomies' => ['series', 'artform'], // TODO
     //'has_archive' => true,
     //'rewrite' => [],
-    //'query_var' => 'artist',
+    //'query_var' => 'artwork',
     //'can_export' => true,
     'delete_with_user' => false,
     //'template' => [],

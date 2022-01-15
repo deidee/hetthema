@@ -36,11 +36,11 @@ msgstr ""
 
 #: functions.php:51
 msgid "Artworks"
-msgstr ""
+msgstr "Kunstwerken"
 
 #: functions.php:52
 msgid "Artwork"
-msgstr ""
+msgstr "Kunstwerk"
 
 #: functions.php:54
 msgid "Add New Artwork"
