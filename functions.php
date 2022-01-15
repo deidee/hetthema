@@ -187,7 +187,7 @@ function hetthema_ctp_artwork() {
             'excerpt'
         ],
         //'register_meta_box_cb'
-        //'taxonomies' => ['series', 'artform'], // TODO
+        'taxonomies' => ['artform'],
         'has_archive' => true,
         //'rewrite' => [],
         //'query_var' => 'artwork',
@@ -204,6 +204,7 @@ add_action( 'init', 'hetthema_ctp_exhibition' );
 function hetthema_ctp_exhibition() {
     // See https://developer.wordpress.org/reference/functions/register_post_type/.
     register_post_type('exhibition', [
+        //'label' => 'Exhibition',
         'labels' => [
             'name' => __('Exhibitions', 'hetthema'),
             'singular_name' => __('Exhibition', 'hetthema'),
@@ -239,7 +240,6 @@ function hetthema_ctp_exhibition() {
             'item_link' => __('Exhibition Link', 'hetthema'),
             'item_link_description' => __('A link to an exhibition', 'hetthema')
         ],
-        //'labels' => [],
         'description' => 'An exhibition.',
         'public' => true,
         //'hierarchical' => false,
@@ -275,6 +275,64 @@ function hetthema_ctp_exhibition() {
         //'template_lock' => false,
         //'_builtin' => false,
         //'_edit_link' => 'post.php?post=%d'
+    ]);
+}
+
+add_action( 'init', 'hetthema_tax_artform' );
+function hetthema_tax_artform() {
+    register_taxonomy('artform', 'artwork', [
+        'labels' => [
+            'name' => 'Artforms',
+            'singular_name' => 'Artform',
+            'search_items' => 'Search Artforms',
+            'popular_items' => 'Popular Artforms',
+            'all_items' => 'All Artforms',
+            'parent_item' => 'Parent Artform',
+            'parent_item_colon' => 'Parent Artform:',
+            'edit_item' => 'Edit Artform',
+            'view_item' => 'View Artform',
+            'update_item' => 'Update Artform',
+            'add_new_item' => 'Add New Artform',
+            'new_item_name' => 'New Artform Name',
+            'separate_items_with_commas' => 'Separate artforms with commas',
+            'add_or_remove_items' => 'Add or remove artforms',
+            'choose_from_most_used' => 'Choose from the most used artforms',
+            'not_found' => 'No artforms found',
+            'no_terms' => 'No artforms',
+            'filter_by_item' => 'Filter by artform',
+            //'items_list_navigation' => '',
+            //'items_list' => '',
+            'most_used' => 'Most Used',
+            //'back_to_items' => '',
+            'item_link' => 'Artform Link',
+            'item_link_description' => 'A link to an artform'
+        ],
+        'description' => 'e.g. Painting, Drawing, Sculpture, Print, Photograph, Assemblage, Collage, etc.',
+        'public' => true,
+        'publicly_queryable' => false,
+        //'hierarchical' => false,
+        //'show_ui' => false,
+        'show_in_menu' => false,
+        'show_in_nav_menus' => false,
+        'show_in_rest' => false,
+        //'rest_base' => '',
+        //'rest_controller_class' => 'WP_REST_Terms_Controller',
+        'show_tagcloud' => false,
+        'show_in_quick_edit' => false,
+        //'show_admin_column' => false,
+        //'meta_box_cb',
+        //'meta_box_sanitize_cb',
+        //'capabilities' => [],
+        //'rewrite' => [],
+        'query_var' => false,
+        //'update_count_callback' => '',
+        'default_term' => [
+            'name' => 'Painting',
+            'slug' => 'painting'
+        ],
+        //'sort' => false,
+        //'args' => [],
+        //'_builtin' => false
     ]);
 }
 
