@@ -48,11 +48,7 @@ hetThema gebruikt standaard [Default.style](https://default.style/) als styleshe
 Als je hetThema gebruikt als _parent theme_, wil je deze stylesheet waarschijnlijk uitschakelen. Dan kan op de volgende manier:
 
 ```php
-function remove_default_style() {
-	wp_dequeue_style( 'default-style' );
-	wp_deregister_style( 'default-style' );
-}
-add_action( 'wp_enqueue_scripts', 'remove_default_style', 20 );
+add_action( 'wp_enqueue_scripts', 'hetthema_remove_default_style', 20 );
 ```
 
 ## In gebruik

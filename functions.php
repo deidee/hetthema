@@ -29,10 +29,15 @@ remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
 remove_action( 'admin_print_styles', 'print_emoji_styles' );
 
 // Apply stylesheet.
-add_action( 'wp_enqueue_scripts', 'deidee_scripts' );
-function deidee_scripts() {
+add_action( 'wp_enqueue_scripts', 'hetthema_scripts' );
+function hetthema_scripts() {
 	wp_register_style( 'default-style', 'https://default.style/', '', '1.0.0' );
 	wp_enqueue_style( 'default-style' );
+}
+// Call this in child theme if Default.style is unwanted.
+function hetthema_remove_default_style() {
+    wp_dequeue_style( 'default-style' );
+    wp_deregister_style( 'default-style' );
 }
 
 // Modern Web browsers only allow videos to autoplay when they are inline and muted.
@@ -44,6 +49,7 @@ add_filter( 'wp_video_shortcode', function( $html ) {
 	return $html;
 } );
 
+// Custom Post Type: Artist.
 add_action( 'init', 'hetthema_ctp_artist' );
 function hetthema_ctp_artist() {
     // See https://developer.wordpress.org/reference/functions/register_post_type/.
@@ -122,6 +128,7 @@ function hetthema_ctp_artist() {
     ]);
 }
 
+// Custom Post Type: Artwork.
 add_action( 'init', 'hetthema_ctp_artwork' );
 function hetthema_ctp_artwork() {
     // See https://developer.wordpress.org/reference/functions/register_post_type/.
@@ -200,6 +207,7 @@ function hetthema_ctp_artwork() {
     ]);
 }
 
+// Custom Post Type: Exhibition.
 add_action( 'init', 'hetthema_ctp_exhibition' );
 function hetthema_ctp_exhibition() {
     // See https://developer.wordpress.org/reference/functions/register_post_type/.
@@ -278,6 +286,7 @@ function hetthema_ctp_exhibition() {
     ]);
 }
 
+// Custom Taxonomy: Artform.
 add_action( 'init', 'hetthema_tax_artform' );
 function hetthema_tax_artform() {
     register_taxonomy('artform', 'artwork', [
@@ -344,6 +353,7 @@ if(!function_exists('hetthema_lorem_picsum')) {
 	}
 }
 
+// Pretty var_dump.
 if(!function_exists('jw')) {
 	function jw() {
 		ob_start();
