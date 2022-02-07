@@ -115,7 +115,7 @@ function hetthema_ctp_artist() {
             'excerpt'
         ],
         //'register_meta_box_cb'
-        //'taxonomies' => ['country'], // TODO
+        'taxonomies' => ['country'],
         'has_archive' => true,
         //'rewrite' => [],
         //'query_var' => 'artist',
@@ -179,7 +179,7 @@ function hetthema_ctp_artwork() {
         //'show_in_nav_menus' => true,
         //'show_in_admin_bar' => true,
         //'show_in_rest' => true,
-        //'rest_base' => 'artist',
+        //'rest_base' => 'artwork',
         //'rest_controller_class' => 'WP_REST_Posts_Controller',
         'menu_position' => 7,
         'menu_icon' => 'dashicons-art',
@@ -321,7 +321,7 @@ function hetthema_tax_artform() {
         'publicly_queryable' => false,
         //'hierarchical' => false,
         //'show_ui' => false,
-        'show_in_menu' => false,
+        'show_in_menu' => true,
         'show_in_nav_menus' => false,
         'show_in_rest' => false,
         //'rest_base' => '',
@@ -338,6 +338,65 @@ function hetthema_tax_artform() {
         'default_term' => [
             'name' => 'Painting',
             'slug' => 'painting'
+        ],
+        //'sort' => false,
+        //'args' => [],
+        //'_builtin' => false
+    ]);
+}
+
+// Custom Taxonomy: Country.
+add_action( 'init', 'hetthema_tax_country' );
+function hetthema_tax_country() {
+    register_taxonomy('country', 'artist', [
+        'labels' => [
+            'name' => 'Countries',
+            'singular_name' => 'Country',
+            'search_items' => 'Search Countries',
+            'popular_items' => 'Popular Countries',
+            'all_items' => 'All Countries',
+            'parent_item' => 'Parent Country',
+            'parent_item_colon' => 'Parent Country:',
+            'edit_item' => 'Edit Country',
+            'view_item' => 'View Country',
+            'update_item' => 'Update Country',
+            'add_new_item' => 'Add New Country',
+            'new_item_name' => 'New Country Name',
+            'separate_items_with_commas' => 'Separate countries with commas',
+            'add_or_remove_items' => 'Add or remove countries',
+            'choose_from_most_used' => 'Choose from the most used countries',
+            'not_found' => 'No countries found',
+            'no_terms' => 'No countries',
+            'filter_by_item' => 'Filter by country',
+            //'items_list_navigation' => '',
+            //'items_list' => '',
+            'most_used' => 'Most Used',
+            //'back_to_items' => '',
+            'item_link' => 'Country Link',
+            'item_link_description' => 'A link to a country'
+        ],
+        //'description' => '',
+        'public' => true,
+        'publicly_queryable' => false,
+        //'hierarchical' => false,
+        //'show_ui' => false,
+        'show_in_menu' => true,
+        'show_in_nav_menus' => false,
+        'show_in_rest' => false,
+        //'rest_base' => '',
+        //'rest_controller_class' => 'WP_REST_Terms_Controller',
+        'show_tagcloud' => false,
+        'show_in_quick_edit' => false,
+        //'show_admin_column' => false,
+        //'meta_box_cb',
+        //'meta_box_sanitize_cb',
+        //'capabilities' => [],
+        //'rewrite' => [],
+        'query_var' => false,
+        //'update_count_callback' => '',
+        'default_term' => [
+            'name' => 'Netherlands',
+            'slug' => 'nl'
         ],
         //'sort' => false,
         //'args' => [],
