@@ -1,0 +1,347 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hetThema\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-18 15:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.0; wp-5.9\n"
+"X-Domain: hetthema"
+
+#: functions.php:90
+msgid "A link to an artist"
+msgstr ""
+
+#: functions.php:169
+msgid "A link to an artwork"
+msgstr ""
+
+#: functions.php:249
+msgid "A link to an exhibition"
+msgstr ""
+
+#: functions.php:61
+msgid "Add New Artist"
+msgstr ""
+
+#: functions.php:140
+msgid "Add New Artwork"
+msgstr ""
+
+#: functions.php:220
+msgid "Add New Exhibition"
+msgstr ""
+
+#: functions.php:70
+msgid "All Artists"
+msgstr ""
+
+#: functions.php:149
+msgid "All Artworks"
+msgstr ""
+
+#: functions.php:229
+msgid "All Exhibitions"
+msgstr ""
+
+#: functions.php:59
+msgid "Artist"
+msgstr ""
+
+#: functions.php:71
+msgid "Artist Archives"
+msgstr ""
+
+#: functions.php:72
+msgid "Artist Attributes"
+msgstr ""
+
+#: functions.php:89
+msgid "Artist Link"
+msgstr ""
+
+#: functions.php:84
+msgid "Artist published"
+msgstr ""
+
+#: functions.php:85
+msgid "Artist published privately"
+msgstr ""
+
+#: functions.php:86
+msgid "Artist reverted to draft"
+msgstr ""
+
+#: functions.php:87
+msgid "Artist scheduled"
+msgstr ""
+
+#: functions.php:88
+msgid "Artist updated"
+msgstr ""
+
+#: functions.php:58
+msgid "Artists"
+msgstr ""
+
+#: functions.php:83
+msgid "Artists list"
+msgstr ""
+
+#: functions.php:82
+msgid "Artists list navigation"
+msgstr ""
+
+#: functions.php:138
+msgid "Artwork"
+msgstr ""
+
+#: functions.php:150
+msgid "Artwork Archives"
+msgstr ""
+
+#: functions.php:151
+msgid "Artwork Attributes"
+msgstr ""
+
+#: functions.php:168
+msgid "Artwork Link"
+msgstr ""
+
+#: functions.php:163
+msgid "Artwork published"
+msgstr ""
+
+#: functions.php:164
+msgid "Artwork published privately"
+msgstr ""
+
+#: functions.php:165
+msgid "Artwork reverted to draft"
+msgstr ""
+
+#: functions.php:166
+msgid "Artwork scheduled"
+msgstr ""
+
+#: functions.php:167
+msgid "Artwork updated"
+msgstr ""
+
+#: functions.php:137
+msgid "Artworks"
+msgstr ""
+
+#: functions.php:162
+msgid "Artworks list"
+msgstr ""
+
+#: functions.php:161
+msgid "Artworks list navigation"
+msgstr ""
+
+#. Author of the theme
+msgid "deidee"
+msgstr ""
+
+#: functions.php:62
+msgid "Edit Artist"
+msgstr ""
+
+#: functions.php:141
+msgid "Edit Artwork"
+msgstr ""
+
+#: functions.php:221
+msgid "Edit Exhibition"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Een standaard WordPress-thema dat bedoeld is om uit te breiden via child-"
+"thema’s."
+msgstr ""
+
+#: functions.php:218
+msgid "Exhibition"
+msgstr ""
+
+#: functions.php:230
+msgid "Exhibition Archives"
+msgstr ""
+
+#: functions.php:231
+msgid "Exhibition Attributes"
+msgstr ""
+
+#: functions.php:248
+msgid "Exhibition Link"
+msgstr ""
+
+#: functions.php:243
+msgid "Exhibition published"
+msgstr ""
+
+#: functions.php:244
+msgid "Exhibition published privately"
+msgstr ""
+
+#: functions.php:245
+msgid "Exhibition reverted to draft"
+msgstr ""
+
+#: functions.php:246
+msgid "Exhibition scheduled"
+msgstr ""
+
+#: functions.php:247
+msgid "Exhibition updated"
+msgstr ""
+
+#: functions.php:217
+msgid "Exhibitions"
+msgstr ""
+
+#: functions.php:242
+msgid "Exhibitions list"
+msgstr ""
+
+#: functions.php:241
+msgid "Exhibitions list navigation"
+msgstr ""
+
+#: functions.php:80
+msgid "Filter artists list"
+msgstr ""
+
+#: functions.php:159
+msgid "Filter artworks list"
+msgstr ""
+
+#: functions.php:239
+msgid "Filter exhibitions list"
+msgstr ""
+
+#. Name of the theme
+msgid "hetThema"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://deidee.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://github.com/deidee/hetthema"
+msgstr ""
+
+#: functions.php:73
+msgid "Insert into artist"
+msgstr ""
+
+#: functions.php:152
+msgid "Insert into artwork"
+msgstr ""
+
+#: functions.php:232
+msgid "Insert into exhibition"
+msgstr ""
+
+#: functions.php:63
+msgid "New Artist"
+msgstr ""
+
+#: functions.php:142
+msgid "New Artwork"
+msgstr ""
+
+#: functions.php:222
+msgid "New Exhibition"
+msgstr ""
+
+#: functions.php:67
+msgid "No artists found"
+msgstr ""
+
+#: functions.php:68
+msgid "No artists found in Trash"
+msgstr ""
+
+#: functions.php:146
+msgid "No artworks found"
+msgstr ""
+
+#: functions.php:147
+msgid "No artworks found in Trash"
+msgstr ""
+
+#: functions.php:226
+msgid "No exhibitions found"
+msgstr ""
+
+#: functions.php:227
+msgid "No exhibitions found in Trash"
+msgstr ""
+
+#: 404.php:12
+msgid "Not Found"
+msgstr ""
+
+#: functions.php:66
+msgid "Search Artists"
+msgstr ""
+
+#: functions.php:145
+msgid "Search Artworks"
+msgstr ""
+
+#: functions.php:225
+msgid "Search Exhibitions"
+msgstr ""
+
+#: 404.php:13
+msgid "The page you are looking for cannot be found on this address."
+msgstr ""
+
+#: functions.php:74
+msgid "Uploaded to this artist"
+msgstr ""
+
+#: functions.php:153
+msgid "Uploaded to this artwork"
+msgstr ""
+
+#: functions.php:233
+msgid "Uploaded to this exhibition"
+msgstr ""
+
+#: functions.php:64
+msgid "View Artist"
+msgstr ""
+
+#: functions.php:65
+msgid "View Artists"
+msgstr ""
+
+#: functions.php:143
+msgid "View Artwork"
+msgstr ""
+
+#: functions.php:144
+msgid "View Artworks"
+msgstr ""
+
+#: functions.php:223
+msgid "View Exhibition"
+msgstr ""
+
+#: functions.php:224
+msgid "View Exhibitions"
+msgstr ""

@@ -9,8 +9,8 @@ get_header();
 	}
 }*/
 ?>
-<h1><?= __('Niet gevonden') ?></h1>
-<p><?= __('De pagina waar u naar zoekt is niet gevonden op dit adres.') ?></p>
+<h1><?= __('Not Found', 'hetthema') ?></h1>
+<p><?= __('The page you are looking for cannot be found on this address.', 'hetthema') ?></p>
 <?php
 
 get_footer();
