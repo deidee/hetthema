@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hetThema\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-18 15:16+0000\n"
-"PO-Revision-Date: 2022-02-18 15:24+0000\n"
+"PO-Revision-Date: 2022-02-18 19:35+0000\n"
 "Last-Translator: \n"
 "Language-Team: Nederlands\n"
 "Language: nl_NL\n"
@@ -41,15 +41,15 @@ msgstr ""
 
 #: functions.php:70
 msgid "All Artists"
-msgstr ""
+msgstr "Alle kunstenaars"
 
 #: functions.php:149
 msgid "All Artworks"
-msgstr ""
+msgstr "Alle kunstwerken"
 
 #: functions.php:229
 msgid "All Exhibitions"
-msgstr ""
+msgstr "Alle exposities"
 
 #: functions.php:59
 msgid "Artist"

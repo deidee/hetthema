@@ -19,7 +19,8 @@ function hetthema_setup_theme() {
 		'style',
 		'script' ) );
 
-	load_theme_textdomain( 'hetthema' );
+	// Load translations.
+    load_theme_textdomain( 'hetthema', get_template_directory() . '/languages' );
 }
 
 // Disable smileys (these are not actual emoji).
