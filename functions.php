@@ -58,7 +58,7 @@ function hetthema_ctp_artist() {
         'labels' => [
             'name' => __('Artists', 'hetthema'),
             'singular_name' => __('Artist', 'hetthema'),
-            //'add_new' => '',
+            'add_new' => __('New Artist', 'hetthema'),
             'add_new_item' => __('Add New Artist', 'hetthema'),
             'edit_item' => __('Edit Artist', 'hetthema'),
             'new_item' => __('New Artist', 'hetthema'),
@@ -137,7 +137,7 @@ function hetthema_ctp_artwork() {
         'labels' => [
             'name' => __('Artworks', 'hetthema'),
             'singular_name' => __('Artwork', 'hetthema'),
-            //'add_new' => '',
+            'add_new' => __('New Artwork', 'hetthema'),
             'add_new_item' => __('Add New Artwork', 'hetthema'),
             'edit_item' => __('Edit Artwork', 'hetthema'),
             'new_item' => __('New Artwork', 'hetthema'),
@@ -217,7 +217,7 @@ function hetthema_ctp_exhibition() {
         'labels' => [
             'name' => __('Exhibitions', 'hetthema'),
             'singular_name' => __('Exhibition', 'hetthema'),
-            //'add_new' => '',
+            'add_new' => __('New Exhibition', 'hetthema'),
             'add_new_item' => __('Add New Exhibition', 'hetthema'),
             'edit_item' => __('Edit Exhibition', 'hetthema'),
             'new_item' => __('New Exhibition', 'hetthema'),
@@ -230,7 +230,7 @@ function hetthema_ctp_exhibition() {
             'all_items' => __('All Exhibitions', 'hetthema'),
             'archives' => __('Exhibition Archives', 'hetthema'),
             'attributes' => __('Exhibition Attributes', 'hetthema'),
-            'insert_into_item' => __('Insert into exhibition', 'hetthema'),
+            'insert_into_item' => __(/** @lang text */ 'Insert into exhibition', 'hetthema'),
             'uploaded_to_this_item' => __('Uploaded to this exhibition', 'hetthema'),
             //'featured_image' => 'Featured image',
             //'set_featured_image' => 'Set featured image',

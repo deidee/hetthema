@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hetThema\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-18 15:16+0000\n"
-"PO-Revision-Date: 2022-02-18 19:35+0000\n"
+"PO-Revision-Date: 2022-02-18 20:16+0000\n"
 "Last-Translator: \n"
 "Language-Team: Nederlands\n"
 "Language: nl_NL\n"
@@ -17,27 +17,27 @@ msgstr ""
 
 #: functions.php:90
 msgid "A link to an artist"
-msgstr ""
+msgstr "Een link naar een artiest"
 
 #: functions.php:169
 msgid "A link to an artwork"
-msgstr ""
+msgstr "Een link naar een kunstwerk"
 
 #: functions.php:249
 msgid "A link to an exhibition"
-msgstr ""
+msgstr "Een link naar een tentoonstelling"
 
 #: functions.php:61
 msgid "Add New Artist"
-msgstr ""
+msgstr "Nieuwe artiest toevoegen"
 
 #: functions.php:140
 msgid "Add New Artwork"
-msgstr ""
+msgstr "Nieuw kunstwerk toevoegen"
 
 #: functions.php:220
 msgid "Add New Exhibition"
-msgstr ""
+msgstr "Nieuwe tentoonstelling toevoegen"
 
 #: functions.php:70
 msgid "All Artists"
@@ -57,35 +57,35 @@ msgstr "Kunstenaar"
 
 #: functions.php:71
 msgid "Artist Archives"
-msgstr ""
+msgstr "Archief van kunstenaars"
 
 #: functions.php:72
 msgid "Artist Attributes"
-msgstr ""
+msgstr "Artiestenattributen"
 
 #: functions.php:89
 msgid "Artist Link"
-msgstr ""
+msgstr "Artiestenlink"
 
 #: functions.php:84
 msgid "Artist published"
-msgstr ""
+msgstr "Artiest gepubliceerd"
 
 #: functions.php:85
 msgid "Artist published privately"
-msgstr ""
+msgstr "Artiest privé gepubliceerd"
 
 #: functions.php:86
 msgid "Artist reverted to draft"
-msgstr ""
+msgstr "Artiest is teruggekeerd naar concept"
 
 #: functions.php:87
 msgid "Artist scheduled"
-msgstr ""
+msgstr "Artiest gepland"
 
 #: functions.php:88
 msgid "Artist updated"
-msgstr ""
+msgstr "Artiest bijgewerkt"
 
 #: functions.php:58
 msgid "Artists"
@@ -97,7 +97,7 @@ msgstr "Kunstenaarslijst"
 
 #: functions.php:82
 msgid "Artists list navigation"
-msgstr ""
+msgstr "Navigatie door artiestenlijst"
 
 #: functions.php:138
 msgid "Artwork"
@@ -105,35 +105,35 @@ msgstr "Kunstwerk"
 
 #: functions.php:150
 msgid "Artwork Archives"
-msgstr ""
+msgstr "Kunstwerken Archief"
 
 #: functions.php:151
 msgid "Artwork Attributes"
-msgstr ""
+msgstr "Kunstwerkattributen"
 
 #: functions.php:168
 msgid "Artwork Link"
-msgstr ""
+msgstr "Kunstwerklink"
 
 #: functions.php:163
 msgid "Artwork published"
-msgstr ""
+msgstr "Kunstwerk gepubliceerd"
 
 #: functions.php:164
 msgid "Artwork published privately"
-msgstr ""
+msgstr "Kunstwerk privé gepubliceerd"
 
 #: functions.php:165
 msgid "Artwork reverted to draft"
-msgstr ""
+msgstr "Kunstwerk teruggezet naar concept"
 
 #: functions.php:166
 msgid "Artwork scheduled"
-msgstr ""
+msgstr "Kunstwerk gepland"
 
 #: functions.php:167
 msgid "Artwork updated"
-msgstr ""
+msgstr "Kunstwerk bijgewerkt"
 
 #: functions.php:137
 msgid "Artworks"
@@ -141,11 +141,11 @@ msgstr "Kunstwerken"
 
 #: functions.php:162
 msgid "Artworks list"
-msgstr ""
+msgstr "Lijst met kunstwerken"
 
 #: functions.php:161
 msgid "Artworks list navigation"
-msgstr ""
+msgstr "Navigatie lijst met kunstwerken"
 
 #. Author of the theme
 msgid "deidee"
@@ -153,21 +153,22 @@ msgstr "de idee"
 
 #: functions.php:62
 msgid "Edit Artist"
-msgstr ""
+msgstr "Artiest bewerken"
 
 #: functions.php:141
 msgid "Edit Artwork"
-msgstr ""
+msgstr "Kunstwerken bewerken"
 
 #: functions.php:221
 msgid "Edit Exhibition"
-msgstr ""
+msgstr "Tentoonstelling bewerken"
 
 #. Description of the theme
 msgid ""
 "Een standaard WordPress-thema dat bedoeld is om uit te breiden via child-"
 "thema’s."
 msgstr ""
+"Een standaard WordPress dat bedoeld is om uit te thema via child-thema’s."
 
 #: functions.php:218
 msgid "Exhibition"
@@ -175,35 +176,35 @@ msgstr "Expositie"
 
 #: functions.php:230
 msgid "Exhibition Archives"
-msgstr ""
+msgstr "Tentoonstelling Archief"
 
 #: functions.php:231
 msgid "Exhibition Attributes"
-msgstr ""
+msgstr "Tentoonstellingskenmerken"
 
 #: functions.php:248
 msgid "Exhibition Link"
-msgstr ""
+msgstr "Tentoonstellingslink"
 
 #: functions.php:243
 msgid "Exhibition published"
-msgstr ""
+msgstr "Tentoonstelling gepubliceerd"
 
 #: functions.php:244
 msgid "Exhibition published privately"
-msgstr ""
+msgstr "Tentoonstelling in eigen beheer gepubliceerd"
 
 #: functions.php:245
 msgid "Exhibition reverted to draft"
-msgstr ""
+msgstr "Tentoonstelling terug naar concept"
 
 #: functions.php:246
 msgid "Exhibition scheduled"
-msgstr ""
+msgstr "Tentoonstelling gepland"
 
 #: functions.php:247
 msgid "Exhibition updated"
-msgstr ""
+msgstr "Tentoonstelling bijgewerkt"
 
 #: functions.php:217
 msgid "Exhibitions"
@@ -211,27 +212,27 @@ msgstr "Exposities"
 
 #: functions.php:242
 msgid "Exhibitions list"
-msgstr ""
+msgstr "Lijst met tentoonstellingen"
 
 #: functions.php:241
 msgid "Exhibitions list navigation"
-msgstr ""
+msgstr "Navigatie lijst met tentoonstellingen"
 
 #: functions.php:80
 msgid "Filter artists list"
-msgstr ""
+msgstr "Lijst met artiesten filteren"
 
 #: functions.php:159
 msgid "Filter artworks list"
-msgstr ""
+msgstr "Lijst met kunstwerken filteren"
 
 #: functions.php:239
 msgid "Filter exhibitions list"
-msgstr ""
+msgstr "Expositielijst filteren"
 
 #. Name of the theme
 msgid "hetThema"
-msgstr ""
+msgstr "hetThema"
 
 #. Author URI of the theme
 msgid "https://deidee.com/"
@@ -243,15 +244,15 @@ msgstr "https://github.com/deidee/hetthema"
 
 #: functions.php:73
 msgid "Insert into artist"
-msgstr ""
+msgstr "Invoegen in artiest"
 
 #: functions.php:152
 msgid "Insert into artwork"
-msgstr ""
+msgstr "Invoegen in kunstwerk"
 
 #: functions.php:232
 msgid "Insert into exhibition"
-msgstr ""
+msgstr "Invoegen in tentoonstelling"
 
 #: functions.php:63
 msgid "New Artist"
@@ -271,7 +272,7 @@ msgstr "Geen kunstenaars gevonden"
 
 #: functions.php:68
 msgid "No artists found in Trash"
-msgstr ""
+msgstr "Geen artiesten gevonden in Trash"
 
 #: functions.php:146
 msgid "No artworks found"
@@ -279,7 +280,7 @@ msgstr "Geen kunstwerken gevonden"
 
 #: functions.php:147
 msgid "No artworks found in Trash"
-msgstr ""
+msgstr "Geen kunstwerken gevonden in Trash"
 
 #: functions.php:226
 msgid "No exhibitions found"
@@ -287,7 +288,7 @@ msgstr "Geen exposities gevonden"
 
 #: functions.php:227
 msgid "No exhibitions found in Trash"
-msgstr ""
+msgstr "Geen tentoonstellingen gevonden in Trash"
 
 #: 404.php:12
 msgid "Not Found"
