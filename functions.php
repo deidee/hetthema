@@ -197,7 +197,9 @@ function hetthema_ctp_artwork() {
         //'register_meta_box_cb'
         'taxonomies' => ['artform'],
         'has_archive' => true,
-        //'rewrite' => [],
+        'rewrite' => [
+            'with_front' => false
+        ],
         //'query_var' => 'artwork',
         //'can_export' => true,
         'delete_with_user' => false,
@@ -276,7 +278,9 @@ function hetthema_ctp_exhibition() {
         //'register_meta_box_cb'
         //'taxonomies' => ['fair'], // TODO
         'has_archive' => true,
-        //'rewrite' => [],
+        'rewrite' => [
+            'with_front' => false
+        ],
         //'query_var' => 'exhibition',
         //'can_export' => true,
         'delete_with_user' => false,
@@ -333,7 +337,9 @@ function hetthema_tax_artform() {
         //'meta_box_cb',
         //'meta_box_sanitize_cb',
         //'capabilities' => [],
-        //'rewrite' => [],
+        'rewrite' => [
+            'with_front' => false
+        ],
         'query_var' => false,
         //'update_count_callback' => '',
         'default_term' => [

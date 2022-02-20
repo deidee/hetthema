@@ -1,6 +1,6 @@
 {
   "name": "@deidee/hetthema",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Een standaard WordPress-thema.",
   "main": "index.js",
   "scripts": {
