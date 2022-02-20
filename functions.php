@@ -118,7 +118,9 @@ function hetthema_ctp_artist() {
         //'register_meta_box_cb'
         'taxonomies' => ['country'],
         'has_archive' => true,
-        //'rewrite' => [],
+        'rewrite' => [
+            'with_front' => false
+        ],
         //'query_var' => 'artist',
         //'can_export' => true,
         'delete_with_user' => false,
@@ -398,7 +400,9 @@ function hetthema_tax_country() {
         //'meta_box_cb',
         //'meta_box_sanitize_cb',
         //'capabilities' => [],
-        //'rewrite' => [],
+        'rewrite' => [
+            'with_front' => false
+        ],
         'query_var' => false,
         //'update_count_callback' => '',
         'default_term' => [
