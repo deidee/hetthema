@@ -113,7 +113,8 @@ function hetthema_ctp_artist() {
             'editor',
             'author',
             'thumbnail',
-            'excerpt'
+            'excerpt',
+            'revisions'
         ],
         //'register_meta_box_cb'
         'taxonomies' => ['country'],
@@ -152,7 +153,7 @@ function hetthema_ctp_artwork() {
             'all_items' => __('All Artworks', 'hetthema'),
             'archives' => __('Artwork Archives', 'hetthema'),
             'attributes' => __('Artwork Attributes', 'hetthema'),
-            'insert_into_item' => __('Insert into artwork', 'hetthema'),
+            'insert_into_item' => __(/** @lang text */ 'Insert into artwork', 'hetthema'),
             'uploaded_to_this_item' => __('Uploaded to this artwork', 'hetthema'),
             //'featured_image' => 'Featured image',
             //'set_featured_image' => 'Set featured image',
@@ -194,7 +195,8 @@ function hetthema_ctp_artwork() {
             'editor',
             'author',
             'thumbnail',
-            'excerpt'
+            'excerpt',
+            'revisions'
         ],
         //'register_meta_box_cb'
         'taxonomies' => ['artform'],
@@ -275,7 +277,8 @@ function hetthema_ctp_exhibition() {
             'editor',
             'author',
             'thumbnail',
-            'excerpt'
+            'excerpt',
+            'revisions'
         ],
         //'register_meta_box_cb'
         //'taxonomies' => ['fair'], // TODO
