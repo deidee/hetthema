@@ -55,4 +55,5 @@ add_action( 'wp_enqueue_scripts', 'hetthema_remove_default_style', 20 );
 
 Websites die hetThema in gebruik hebben:
 
+* [Galerie Helder](https://galeriehelder.nl/)
 * [The Fashionweek](https://thefashionweek.nl/)
