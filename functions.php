@@ -350,7 +350,7 @@ function hetthema_ctp_location() {
         //'rest_base' => 'location',
         //'rest_controller_class' => 'WP_REST_Posts_Controller',
         'menu_position' => 7,
-        'menu_icon' => 'dashicons-map-alt',
+        'menu_icon' => 'dashicons-location-alt',
         // 'capability_type',
         //'capabilities',
         //'map_meta_cap',
