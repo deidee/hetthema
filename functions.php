@@ -296,6 +296,88 @@ function hetthema_ctp_exhibition() {
     ]);
 }
 
+// Custom Post Type: Artwork.
+add_action( 'init', 'hetthema_ctp_location' );
+function hetthema_ctp_location() {
+    // See https://developer.wordpress.org/reference/functions/register_post_type/.
+    register_post_type('location', [
+        'labels' => [
+            'name' => __('Locations', 'hetthema'),
+            'singular_name' => __('Location', 'hetthema'),
+            'add_new' => __('New Location', 'hetthema'),
+            'add_new_item' => __('Add New Location', 'hetthema'),
+            'edit_item' => __('Edit Location', 'hetthema'),
+            'new_item' => __('New Location', 'hetthema'),
+            'view_item' => __('View Location', 'hetthema'),
+            'view_items' => __('View Locations', 'hetthema'),
+            'search_items' => __('Search Locations', 'hetthema'),
+            'not_found' => __('No locations found', 'hetthema'),
+            'not_found_in_trash' => __('No locations found in Trash', 'hetthema'),
+            //'parent_item_colon' => 'Parent Location',
+            'all_items' => __('All Locations', 'hetthema'),
+            'archives' => __('Location Archives', 'hetthema'),
+            'attributes' => __('Location Attributes', 'hetthema'),
+            'insert_into_item' => __(/** @lang text */ 'Insert into locations', 'hetthema'),
+            'uploaded_to_this_item' => __('Uploaded to this location', 'hetthema'),
+            //'featured_image' => 'Featured image',
+            //'set_featured_image' => 'Set featured image',
+            //'remove_featured_image' => 'Remove featured image',
+            //'use_featured_image' => 'Use featured image',
+            //'menu_name' => 'Locations',
+            'filter_items_list' => __('Filter Locations list', 'hetthema'),
+            //'filter_by_date' => 'Filter by date',
+            'items_list_navigation' => __('Locations list navigation', 'hetthema'),
+            'items_list' => __('Locations list', 'hetthema'),
+            'item_published' => __('Location published', 'hetthema'),
+            'item_published_privately' => __('Location published privately', 'hetthema'),
+            'item_reverted_to_draft' => __('Location reverted to draft', 'hetthema'),
+            'item_scheduled' => __('Location scheduled', 'hetthema'),
+            'item_updated' => __('Location updated', 'hetthema'),
+            'item_link' => __('Location Link', 'hetthema'),
+            'item_link_description' => __('A link to an location', 'hetthema')
+        ],
+        //'labels' => [],
+        'description' => 'A location.',
+        'public' => true,
+        //'hierarchical' => false,
+        //'exclude_from_search' => false,
+        //'publicly_queryable' => true,
+        //'show_ui' => true,
+        //'show_in_menu' => true,
+        //'show_in_nav_menus' => true,
+        //'show_in_admin_bar' => true,
+        //'show_in_rest' => true,
+        //'rest_base' => 'location',
+        //'rest_controller_class' => 'WP_REST_Posts_Controller',
+        'menu_position' => 7,
+        'menu_icon' => 'dashicons-map-alt',
+        // 'capability_type',
+        //'capabilities',
+        //'map_meta_cap',
+        'supports' => [
+            'title',
+            'editor',
+            'author',
+            'thumbnail',
+            'excerpt',
+            'revisions'
+        ],
+        //'register_meta_box_cb'
+        //'taxonomies' => ['artform'],
+        'has_archive' => true,
+        'rewrite' => [
+            'with_front' => false
+        ],
+        //'query_var' => 'location',
+        //'can_export' => true,
+        'delete_with_user' => false,
+        //'template' => [],
+        //'template_lock' => false,
+        //'_builtin' => false,
+        //'_edit_link' => 'post.php?post=%d'
+    ]);
+}
+
 // Custom Taxonomy: Artform.
 add_action( 'init', 'hetthema_tax_artform' );
 function hetthema_tax_artform() {

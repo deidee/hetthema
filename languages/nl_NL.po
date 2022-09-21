@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: hetThema\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-18 15:16+0000\n"
-"PO-Revision-Date: 2022-02-18 20:16+0000\n"
+"PO-Revision-Date: 2022-09-21 12:15+0000\n"
 "Last-Translator: \n"
 "Language-Team: Nederlands\n"
 "Language: nl_NL\n"
@@ -15,135 +15,147 @@ msgstr ""
 "X-Loco-Version: 2.6.0; wp-5.9\n"
 "X-Domain: hetthema"
 
-#: functions.php:90
+#: functions.php:91
 msgid "A link to an artist"
 msgstr "Een link naar een artiest"
 
-#: functions.php:169
+#: functions.php:173
 msgid "A link to an artwork"
 msgstr "Een link naar een kunstwerk"
 
-#: functions.php:249
+#: functions.php:256
 msgid "A link to an exhibition"
 msgstr "Een link naar een tentoonstelling"
 
-#: functions.php:61
+#: functions.php:337
+msgid "A link to an location"
+msgstr "Een link naar een locatie"
+
+#: functions.php:62
 msgid "Add New Artist"
 msgstr "Nieuwe artiest toevoegen"
 
-#: functions.php:140
+#: functions.php:144
 msgid "Add New Artwork"
 msgstr "Nieuw kunstwerk toevoegen"
 
-#: functions.php:220
+#: functions.php:227
 msgid "Add New Exhibition"
 msgstr "Nieuwe tentoonstelling toevoegen"
 
-#: functions.php:70
+#: functions.php:308
+msgid "Add New Location"
+msgstr "Nieuwe locatie toevoegen"
+
+#: functions.php:71
 msgid "All Artists"
 msgstr "Alle kunstenaars"
 
-#: functions.php:149
+#: functions.php:153
 msgid "All Artworks"
 msgstr "Alle kunstwerken"
 
-#: functions.php:229
+#: functions.php:236
 msgid "All Exhibitions"
 msgstr "Alle exposities"
 
-#: functions.php:59
+#: functions.php:317
+msgid "All Locations"
+msgstr "Alle locaties"
+
+#: functions.php:60
 msgid "Artist"
 msgstr "Kunstenaar"
 
-#: functions.php:71
+#: functions.php:72
 msgid "Artist Archives"
 msgstr "Archief van kunstenaars"
 
-#: functions.php:72
+#: functions.php:73
 msgid "Artist Attributes"
 msgstr "Artiestenattributen"
 
-#: functions.php:89
+#: functions.php:90
 msgid "Artist Link"
 msgstr "Artiestenlink"
 
-#: functions.php:84
+#: functions.php:85
 msgid "Artist published"
 msgstr "Artiest gepubliceerd"
 
-#: functions.php:85
+#: functions.php:86
 msgid "Artist published privately"
 msgstr "Artiest privé gepubliceerd"
 
-#: functions.php:86
+#: functions.php:87
 msgid "Artist reverted to draft"
 msgstr "Artiest is teruggekeerd naar concept"
 
-#: functions.php:87
+#: functions.php:88
 msgid "Artist scheduled"
 msgstr "Artiest gepland"
 
-#: functions.php:88
+#: functions.php:89
 msgid "Artist updated"
 msgstr "Artiest bijgewerkt"
 
-#: functions.php:58
+#: functions.php:59
 msgid "Artists"
 msgstr "Kunstenaars"
 
-#: functions.php:83
+#: functions.php:84
 msgid "Artists list"
 msgstr "Kunstenaarslijst"
 
-#: functions.php:82
+#: functions.php:83
 msgid "Artists list navigation"
 msgstr "Navigatie door artiestenlijst"
 
-#: functions.php:138
+#: functions.php:142
 msgid "Artwork"
 msgstr "Kunstwerk"
 
-#: functions.php:150
+#: functions.php:154
 msgid "Artwork Archives"
 msgstr "Kunstwerken Archief"
 
-#: functions.php:151
+#: functions.php:155
 msgid "Artwork Attributes"
 msgstr "Kunstwerkattributen"
 
-#: functions.php:168
+#: functions.php:172
 msgid "Artwork Link"
 msgstr "Kunstwerklink"
 
-#: functions.php:163
+#: functions.php:167
 msgid "Artwork published"
 msgstr "Kunstwerk gepubliceerd"
 
-#: functions.php:164
+#: functions.php:168
 msgid "Artwork published privately"
 msgstr "Kunstwerk privé gepubliceerd"
 
-#: functions.php:165
+#: functions.php:169
 msgid "Artwork reverted to draft"
 msgstr "Kunstwerk teruggezet naar concept"
 
-#: functions.php:166
+#: functions.php:170
 msgid "Artwork scheduled"
 msgstr "Kunstwerk gepland"
 
-#: functions.php:167
+#: functions.php:171
 msgid "Artwork updated"
 msgstr "Kunstwerk bijgewerkt"
 
-#: functions.php:137
+#: functions.php:141
 msgid "Artworks"
 msgstr "Kunstwerken"
 
-#: functions.php:162
+#: functions.php:166
 msgid "Artworks list"
 msgstr "Lijst met kunstwerken"
 
-#: functions.php:161
+#: functions.php:165
 msgid "Artworks list navigation"
 msgstr "Navigatie lijst met kunstwerken"
 
@@ -151,17 +163,21 @@ msgstr "Navigatie lijst met kunstwerken"
 msgid "deidee"
 msgstr "de idee"
 
-#: functions.php:62
+#: functions.php:63
 msgid "Edit Artist"
 msgstr "Artiest bewerken"
 
-#: functions.php:141
+#: functions.php:145
 msgid "Edit Artwork"
 msgstr "Kunstwerken bewerken"
 
-#: functions.php:221
+#: functions.php:228
 msgid "Edit Exhibition"
 msgstr "Tentoonstelling bewerken"
+
+#: functions.php:309
+msgid "Edit Location"
+msgstr "Locatie wijzigen"
 
 #. Description of the theme
 msgid ""
@@ -170,65 +186,69 @@ msgid ""
 msgstr ""
 "Een standaard WordPress dat bedoeld is om uit te thema via child-thema’s."
 
-#: functions.php:218
+#: functions.php:225
 msgid "Exhibition"
 msgstr "Expositie"
 
-#: functions.php:230
+#: functions.php:237
 msgid "Exhibition Archives"
 msgstr "Tentoonstelling Archief"
 
-#: functions.php:231
+#: functions.php:238
 msgid "Exhibition Attributes"
 msgstr "Tentoonstellingskenmerken"
 
-#: functions.php:248
+#: functions.php:255
 msgid "Exhibition Link"
 msgstr "Tentoonstellingslink"
 
-#: functions.php:243
+#: functions.php:250
 msgid "Exhibition published"
 msgstr "Tentoonstelling gepubliceerd"
 
-#: functions.php:244
+#: functions.php:251
 msgid "Exhibition published privately"
 msgstr "Tentoonstelling in eigen beheer gepubliceerd"
 
-#: functions.php:245
+#: functions.php:252
 msgid "Exhibition reverted to draft"
 msgstr "Tentoonstelling terug naar concept"
 
-#: functions.php:246
+#: functions.php:253
 msgid "Exhibition scheduled"
 msgstr "Tentoonstelling gepland"
 
-#: functions.php:247
+#: functions.php:254
 msgid "Exhibition updated"
 msgstr "Tentoonstelling bijgewerkt"
 
-#: functions.php:217
+#: functions.php:224
 msgid "Exhibitions"
 msgstr "Exposities"
 
-#: functions.php:242
+#: functions.php:249
 msgid "Exhibitions list"
 msgstr "Lijst met tentoonstellingen"
 
-#: functions.php:241
+#: functions.php:248
 msgid "Exhibitions list navigation"
 msgstr "Navigatie lijst met tentoonstellingen"
 
-#: functions.php:80
+#: functions.php:81
 msgid "Filter artists list"
 msgstr "Lijst met artiesten filteren"
 
-#: functions.php:159
+#: functions.php:163
 msgid "Filter artworks list"
 msgstr "Lijst met kunstwerken filteren"
 
-#: functions.php:239
+#: functions.php:246
 msgid "Filter exhibitions list"
 msgstr "Expositielijst filteren"
+
+#: functions.php:327
+msgid "Filter Locations list"
+msgstr "Filter lijst van locaties"
 
 #. Name of the theme
 msgid "hetThema"
@@ -242,106 +262,186 @@ msgstr "https://deidee.nl/"
 msgid "https://github.com/deidee/hetthema"
 msgstr "https://github.com/deidee/hetthema"
 
-#: functions.php:73
+#: functions.php:74
 msgid "Insert into artist"
 msgstr "Invoegen in artiest"
 
-#: functions.php:152
+#: functions.php:156
 msgid "Insert into artwork"
 msgstr "Invoegen in kunstwerk"
 
-#: functions.php:232
+#: functions.php:239
 msgid "Insert into exhibition"
 msgstr "Invoegen in tentoonstelling"
 
-#: functions.php:63
+#: functions.php:320
+msgid "Insert into locations"
+msgstr "Invoegen in locaties"
+
+#: functions.php:306
+msgid "Location"
+msgstr "Locatie"
+
+#: functions.php:318
+msgid "Location Archives"
+msgstr "Locatie-archieven"
+
+#: functions.php:319
+msgid "Location Attributes"
+msgstr "Locatie-eigenschappen"
+
+#: functions.php:336
+msgid "Location Link"
+msgstr "Locatie-link"
+
+#: functions.php:331
+msgid "Location published"
+msgstr "Locatie gepubliceerd"
+
+#: functions.php:332
+msgid "Location published privately"
+msgstr "Locatie privé gepubliceerd"
+
+#: functions.php:333
+msgid "Location reverted to draft"
+msgstr "Locatie terug naar concept"
+
+#: functions.php:334
+msgid "Location scheduled"
+msgstr "Locatie gepland"
+
+#: functions.php:335
+msgid "Location updated"
+msgstr "Locatie geüpdatet"
+
+#: functions.php:305
+msgid "Locations"
+msgstr "Locaties"
+
+#: functions.php:330
+msgid "Locations list"
+msgstr "Locatie-lijst"
+
+#: functions.php:329
+msgid "Locations list navigation"
+msgstr "Locatie-lijstnavigatie"
+
+#: functions.php:61 functions.php:64
 msgid "New Artist"
 msgstr "Nieuwe kunstenaar"
 
-#: functions.php:142
+#: functions.php:143 functions.php:146
 msgid "New Artwork"
 msgstr "Nieuw kunstwerk"
 
-#: functions.php:222
+#: functions.php:226 functions.php:229
 msgid "New Exhibition"
 msgstr "Nieuwe expositie"
 
-#: functions.php:67
+#: functions.php:307 functions.php:310
+msgid "New Location"
+msgstr "Nieuwe locatie"
+
+#: functions.php:68
 msgid "No artists found"
 msgstr "Geen kunstenaars gevonden"
 
-#: functions.php:68
+#: functions.php:69
 msgid "No artists found in Trash"
 msgstr "Geen artiesten gevonden in Trash"
 
-#: functions.php:146
+#: functions.php:150
 msgid "No artworks found"
 msgstr "Geen kunstwerken gevonden"
 
-#: functions.php:147
+#: functions.php:151
 msgid "No artworks found in Trash"
 msgstr "Geen kunstwerken gevonden in Trash"
 
-#: functions.php:226
+#: functions.php:233
 msgid "No exhibitions found"
 msgstr "Geen exposities gevonden"
 
-#: functions.php:227
+#: functions.php:234
 msgid "No exhibitions found in Trash"
 msgstr "Geen tentoonstellingen gevonden in Trash"
+
+#: functions.php:314
+msgid "No locations found"
+msgstr "Geen locaties gevonden"
+
+#: functions.php:315
+msgid "No locations found in Trash"
+msgstr "Geen locaties gevonden in de prullenbak"
 
 #: 404.php:12
 msgid "Not Found"
 msgstr "Niet gevonden"
 
-#: functions.php:66
+#: functions.php:67
 msgid "Search Artists"
 msgstr "Zoek kunstenaars"
 
-#: functions.php:145
+#: functions.php:149
 msgid "Search Artworks"
 msgstr "Zoek kunstwerken"
 
-#: functions.php:225
+#: functions.php:232
 msgid "Search Exhibitions"
 msgstr "Zoek exposities"
+
+#: functions.php:313
+msgid "Search Locations"
+msgstr "Zoek locaties"
 
 #: 404.php:13
 msgid "The page you are looking for cannot be found on this address."
 msgstr "De pagina die u zoekt kan niet worden gevonden op dit adres."
 
-#: functions.php:74
+#: functions.php:75
 msgid "Uploaded to this artist"
 msgstr "Upload naar deze kunstenaar"
 
-#: functions.php:153
+#: functions.php:157
 msgid "Uploaded to this artwork"
 msgstr "Upload naar dit kunstwerk"
 
-#: functions.php:233
+#: functions.php:240
 msgid "Uploaded to this exhibition"
 msgstr "Upload naar deze expositie"
 
-#: functions.php:64
+#: functions.php:321
+msgid "Uploaded to this location"
+msgstr "Upload naar deze locatie"
+
+#: functions.php:65
 msgid "View Artist"
 msgstr "Bekijk kunstenaar"
 
-#: functions.php:65
+#: functions.php:66
 msgid "View Artists"
 msgstr "Bekijk kunstenaars"
 
-#: functions.php:143
+#: functions.php:147
 msgid "View Artwork"
 msgstr "Bekijk kunstwerk"
 
-#: functions.php:144
+#: functions.php:148
 msgid "View Artworks"
 msgstr "Bekijk kunstwerken"
 
-#: functions.php:223
+#: functions.php:230
 msgid "View Exhibition"
 msgstr "Bekijk expositie"
 
-#: functions.php:224
+#: functions.php:231
 msgid "View Exhibitions"
 msgstr "Bekijk exposities"
+
+#: functions.php:311
+msgid "View Location"
+msgstr "Bekijk locatie"
+
+#: functions.php:312
+msgid "View Locations"
+msgstr "Bekijk locaties"

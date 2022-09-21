@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hetThema\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-18 15:16+0000\n"
+"POT-Creation-Date: 2022-09-21 12:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -16,135 +16,147 @@ msgstr ""
 "X-Loco-Version: 2.6.0; wp-5.9\n"
 "X-Domain: hetthema"
 
-#: functions.php:90
+#: functions.php:91
 msgid "A link to an artist"
 msgstr ""
 
-#: functions.php:169
+#: functions.php:173
 msgid "A link to an artwork"
 msgstr ""
 
-#: functions.php:249
+#: functions.php:256
 msgid "A link to an exhibition"
 msgstr ""
 
-#: functions.php:61
+#: functions.php:337
+msgid "A link to an location"
+msgstr ""
+
+#: functions.php:62
 msgid "Add New Artist"
 msgstr ""
 
-#: functions.php:140
+#: functions.php:144
 msgid "Add New Artwork"
 msgstr ""
 
-#: functions.php:220
+#: functions.php:227
 msgid "Add New Exhibition"
 msgstr ""
 
-#: functions.php:70
-msgid "All Artists"
-msgstr ""
-
-#: functions.php:149
-msgid "All Artworks"
-msgstr ""
-
-#: functions.php:229
-msgid "All Exhibitions"
-msgstr ""
-
-#: functions.php:59
-msgid "Artist"
+#: functions.php:308
+msgid "Add New Location"
 msgstr ""
 
 #: functions.php:71
-msgid "Artist Archives"
+msgid "All Artists"
+msgstr ""
+
+#: functions.php:153
+msgid "All Artworks"
+msgstr ""
+
+#: functions.php:236
+msgid "All Exhibitions"
+msgstr ""
+
+#: functions.php:317
+msgid "All Locations"
+msgstr ""
+
+#: functions.php:60
+msgid "Artist"
 msgstr ""
 
 #: functions.php:72
+msgid "Artist Archives"
+msgstr ""
+
+#: functions.php:73
 msgid "Artist Attributes"
 msgstr ""
 
-#: functions.php:89
+#: functions.php:90
 msgid "Artist Link"
 msgstr ""
 
-#: functions.php:84
+#: functions.php:85
 msgid "Artist published"
 msgstr ""
 
-#: functions.php:85
+#: functions.php:86
 msgid "Artist published privately"
 msgstr ""
 
-#: functions.php:86
+#: functions.php:87
 msgid "Artist reverted to draft"
 msgstr ""
 
-#: functions.php:87
+#: functions.php:88
 msgid "Artist scheduled"
 msgstr ""
 
-#: functions.php:88
+#: functions.php:89
 msgid "Artist updated"
 msgstr ""
 
-#: functions.php:58
+#: functions.php:59
 msgid "Artists"
 msgstr ""
 
-#: functions.php:83
+#: functions.php:84
 msgid "Artists list"
 msgstr ""
 
-#: functions.php:82
+#: functions.php:83
 msgid "Artists list navigation"
 msgstr ""
 
-#: functions.php:138
+#: functions.php:142
 msgid "Artwork"
 msgstr ""
 
-#: functions.php:150
+#: functions.php:154
 msgid "Artwork Archives"
 msgstr ""
 
-#: functions.php:151
+#: functions.php:155
 msgid "Artwork Attributes"
 msgstr ""
 
-#: functions.php:168
+#: functions.php:172
 msgid "Artwork Link"
 msgstr ""
 
-#: functions.php:163
+#: functions.php:167
 msgid "Artwork published"
 msgstr ""
 
-#: functions.php:164
+#: functions.php:168
 msgid "Artwork published privately"
 msgstr ""
 
-#: functions.php:165
+#: functions.php:169
 msgid "Artwork reverted to draft"
 msgstr ""
 
-#: functions.php:166
+#: functions.php:170
 msgid "Artwork scheduled"
 msgstr ""
 
-#: functions.php:167
+#: functions.php:171
 msgid "Artwork updated"
 msgstr ""
 
-#: functions.php:137
+#: functions.php:141
 msgid "Artworks"
 msgstr ""
 
-#: functions.php:162
+#: functions.php:166
 msgid "Artworks list"
 msgstr ""
 
-#: functions.php:161
+#: functions.php:165
 msgid "Artworks list navigation"
 msgstr ""
 
@@ -152,16 +164,20 @@ msgstr ""
 msgid "deidee"
 msgstr ""
 
-#: functions.php:62
+#: functions.php:63
 msgid "Edit Artist"
 msgstr ""
 
-#: functions.php:141
+#: functions.php:145
 msgid "Edit Artwork"
 msgstr ""
 
-#: functions.php:221
+#: functions.php:228
 msgid "Edit Exhibition"
+msgstr ""
+
+#: functions.php:309
+msgid "Edit Location"
 msgstr ""
 
 #. Description of the theme
@@ -170,64 +186,68 @@ msgid ""
 "thema’s."
 msgstr ""
 
-#: functions.php:218
+#: functions.php:225
 msgid "Exhibition"
 msgstr ""
 
-#: functions.php:230
+#: functions.php:237
 msgid "Exhibition Archives"
 msgstr ""
 
-#: functions.php:231
+#: functions.php:238
 msgid "Exhibition Attributes"
 msgstr ""
 
-#: functions.php:248
+#: functions.php:255
 msgid "Exhibition Link"
 msgstr ""
 
-#: functions.php:243
+#: functions.php:250
 msgid "Exhibition published"
 msgstr ""
 
-#: functions.php:244
+#: functions.php:251
 msgid "Exhibition published privately"
 msgstr ""
 
-#: functions.php:245
+#: functions.php:252
 msgid "Exhibition reverted to draft"
 msgstr ""
 
-#: functions.php:246
+#: functions.php:253
 msgid "Exhibition scheduled"
 msgstr ""
 
-#: functions.php:247
+#: functions.php:254
 msgid "Exhibition updated"
 msgstr ""
 
-#: functions.php:217
+#: functions.php:224
 msgid "Exhibitions"
 msgstr ""
 
-#: functions.php:242
+#: functions.php:249
 msgid "Exhibitions list"
 msgstr ""
 
-#: functions.php:241
+#: functions.php:248
 msgid "Exhibitions list navigation"
 msgstr ""
 
-#: functions.php:80
+#: functions.php:81
 msgid "Filter artists list"
 msgstr ""
 
-#: functions.php:159
+#: functions.php:163
 msgid "Filter artworks list"
 msgstr ""
 
-#: functions.php:239
+#: functions.php:246
 msgid "Filter exhibitions list"
+msgstr ""
+
+#: functions.php:327
+msgid "Filter Locations list"
 msgstr ""
 
 #. Name of the theme
@@ -242,106 +262,186 @@ msgstr ""
 msgid "https://github.com/deidee/hetthema"
 msgstr ""
 
-#: functions.php:73
+#: functions.php:74
 msgid "Insert into artist"
 msgstr ""
 
-#: functions.php:152
+#: functions.php:156
 msgid "Insert into artwork"
 msgstr ""
 
-#: functions.php:232
+#: functions.php:239
 msgid "Insert into exhibition"
 msgstr ""
 
-#: functions.php:63
+#: functions.php:320
+msgid "Insert into locations"
+msgstr ""
+
+#: functions.php:306
+msgid "Location"
+msgstr ""
+
+#: functions.php:318
+msgid "Location Archives"
+msgstr ""
+
+#: functions.php:319
+msgid "Location Attributes"
+msgstr ""
+
+#: functions.php:336
+msgid "Location Link"
+msgstr ""
+
+#: functions.php:331
+msgid "Location published"
+msgstr ""
+
+#: functions.php:332
+msgid "Location published privately"
+msgstr ""
+
+#: functions.php:333
+msgid "Location reverted to draft"
+msgstr ""
+
+#: functions.php:334
+msgid "Location scheduled"
+msgstr ""
+
+#: functions.php:335
+msgid "Location updated"
+msgstr ""
+
+#: functions.php:305
+msgid "Locations"
+msgstr ""
+
+#: functions.php:330
+msgid "Locations list"
+msgstr ""
+
+#: functions.php:329
+msgid "Locations list navigation"
+msgstr ""
+
+#: functions.php:61 functions.php:64
 msgid "New Artist"
 msgstr ""
 
-#: functions.php:142
+#: functions.php:143 functions.php:146
 msgid "New Artwork"
 msgstr ""
 
-#: functions.php:222
+#: functions.php:226 functions.php:229
 msgid "New Exhibition"
 msgstr ""
 
-#: functions.php:67
-msgid "No artists found"
+#: functions.php:307 functions.php:310
+msgid "New Location"
 msgstr ""
 
 #: functions.php:68
+msgid "No artists found"
+msgstr ""
+
+#: functions.php:69
 msgid "No artists found in Trash"
 msgstr ""
 
-#: functions.php:146
+#: functions.php:150
 msgid "No artworks found"
 msgstr ""
 
-#: functions.php:147
+#: functions.php:151
 msgid "No artworks found in Trash"
 msgstr ""
 
-#: functions.php:226
+#: functions.php:233
 msgid "No exhibitions found"
 msgstr ""
 
-#: functions.php:227
+#: functions.php:234
 msgid "No exhibitions found in Trash"
+msgstr ""
+
+#: functions.php:314
+msgid "No locations found"
+msgstr ""
+
+#: functions.php:315
+msgid "No locations found in Trash"
 msgstr ""
 
 #: 404.php:12
 msgid "Not Found"
 msgstr ""
 
-#: functions.php:66
+#: functions.php:67
 msgid "Search Artists"
 msgstr ""
 
-#: functions.php:145
+#: functions.php:149
 msgid "Search Artworks"
 msgstr ""
 
-#: functions.php:225
+#: functions.php:232
 msgid "Search Exhibitions"
+msgstr ""
+
+#: functions.php:313
+msgid "Search Locations"
 msgstr ""
 
 #: 404.php:13
 msgid "The page you are looking for cannot be found on this address."
 msgstr ""
 
-#: functions.php:74
+#: functions.php:75
 msgid "Uploaded to this artist"
 msgstr ""
 
-#: functions.php:153
+#: functions.php:157
 msgid "Uploaded to this artwork"
 msgstr ""
 
-#: functions.php:233
+#: functions.php:240
 msgid "Uploaded to this exhibition"
 msgstr ""
 
-#: functions.php:64
-msgid "View Artist"
+#: functions.php:321
+msgid "Uploaded to this location"
 msgstr ""
 
 #: functions.php:65
+msgid "View Artist"
+msgstr ""
+
+#: functions.php:66
 msgid "View Artists"
 msgstr ""
 
-#: functions.php:143
+#: functions.php:147
 msgid "View Artwork"
 msgstr ""
 
-#: functions.php:144
+#: functions.php:148
 msgid "View Artworks"
 msgstr ""
 
-#: functions.php:223
+#: functions.php:230
 msgid "View Exhibition"
 msgstr ""
 
-#: functions.php:224
+#: functions.php:231
 msgid "View Exhibitions"
+msgstr ""
+
+#: functions.php:311
+msgid "View Location"
+msgstr ""
+
+#: functions.php:312
+msgid "View Locations"
 msgstr ""
