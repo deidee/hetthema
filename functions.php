@@ -360,6 +360,7 @@ function hetthema_ctp_location() {
             'author',
             'thumbnail',
             'excerpt',
+            'page-attributes',
             'revisions'
         ],
         //'register_meta_box_cb'
