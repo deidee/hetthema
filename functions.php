@@ -1,5 +1,7 @@
 <?php
 
+defined( 'ABSPATH' ) || exit;
+
 add_action( 'after_setup_theme', 'hetthema_setup_theme' );
 function hetthema_setup_theme() {
 	// Enable some basic theme support.
