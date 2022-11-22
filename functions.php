@@ -20,6 +20,7 @@ function hetthema_setup_theme() {
 		'caption',
 		'style',
 		'script' ) );
+    add_theme_support( 'custom-logo' );
 
 	// Load translations.
     load_theme_textdomain( 'hetthema', get_template_directory() . '/languages' );
