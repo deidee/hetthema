@@ -512,6 +512,17 @@ if(!function_exists('hetthema_lorem_picsum')) {
 	}
 }
 
+if(!function_exists('hetthema_jsonld')) {
+    function hetthema_jsonld($object)
+    {
+        $r = '<script type="application/ld+json">';
+        $r .= json_encode($object);
+        $r .= '</script>';
+
+        return $r;
+    }
+}
+
 // Pretty var_dump.
 if(!function_exists('jw')) {
 	function jw() {

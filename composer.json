@@ -1,7 +1,7 @@
 {
   "name": "deidee/hetthema",
   "description": "A standard WordPress theme.",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "type": "wordpress-theme",
   "authors": [
     {
@@ -11,6 +11,7 @@
   ],
   "license": "proprietary",
   "require": {
-    "php": "^7.4|^8.0"
+    "php": "^7.4|^8.0",
+    "ext-json": "*"
   }
 }
