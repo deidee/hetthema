@@ -57,3 +57,11 @@ Websites die hetThema in gebruik hebben:
 
 * [Galerie Helder](https://galeriehelder.nl/)
 * [The Fashionweek](https://thefashionweek.nl/)
+
+### In ontwikkeling
+
+Websites die nog in ontwikkeling zijn en hetThema gaan gebruiken:
+
+* Soemo Fine Arts
+* Ammerlaan Opleidingen en Trainingen
+* Praktijk voor Yoga en Meditatie van Diana van Gelder

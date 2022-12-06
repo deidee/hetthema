@@ -504,6 +504,18 @@ function hetthema_tax_country() {
     ]);
 }
 
+function hetthema_dashboard_widget( $post, $callback_args ) {
+    echo <<<HTML
+<p>Dit thema is gebaseerd op <a href="https://github.com/deidee/hetthema">hetthema</a> van <a href="https://deidee.nl/">deidee</a>.</p>
+HTML;
+
+}
+
+function hetthema_add_dashboard_widgets() {
+    wp_add_dashboard_widget( 'dashboard_widget', 'hetThema', 'hetthema_dashboard_widget' );
+}
+add_action( 'wp_dashboard_setup', 'hetthema_add_dashboard_widgets' );
+
 if(!function_exists('hetthema_lorem_picsum')) {
 	function hetthema_lorem_picsum($width = 512, $height = NULL) {
 		if(empty($height)) $height = $width;
